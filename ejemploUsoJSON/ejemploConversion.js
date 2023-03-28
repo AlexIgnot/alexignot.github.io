@@ -9,9 +9,9 @@ var otherAlumno = {};
 
 function convertObjToJson(){
 
-	var matriculaElement = document.getElementByID("matricula");
-	var nombreElement = document.getElementByID("nombre");
-	var carreraElemnt = document.getElementByID("carrera");
+	var matriculaElement = document.getElementById("matricula");
+	var nombreElement = document.getElementById("nombre");
+	var carreraElemnt = document.getElementById("carrera");
 
 	objAlumno.matricula = matriculaElement.value;
 
