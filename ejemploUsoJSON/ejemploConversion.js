@@ -11,7 +11,7 @@ function convertObjToJson(){
 
 	var matriculaElement = document.getElementById("matricula");
 	var nombreElement = document.getElementById("nombre");
-	var carreraElemnt = document.getElementById("carrera");
+	var carreraElement = document.getElementById("carrera");
 
 	objAlumno.matricula = matriculaElement.value;
 
@@ -38,11 +38,11 @@ function convertJsonToObj(){
 	console.log(otherAlumno.nombre);
 	console.log(otherAlumno.carrera);
 
-	document.getElementByID("newMatricula").innertHTML = otherAlumno.matricula;
+	document.getElementById("newMatricula").innerHTML = otherAlumno.matricula;
 
-	document.getElementByID("newNombre").innertHTML = otherAlumno.nombre;
+	document.getElementById("newNombre").innerHTML = otherAlumno.nombre;
 
-	document.getElementByID("newCarrera").innertHTML = otherAlumno.carrera;
+	document.getElementById("newCarrera").innerHTML = otherAlumno.carrera;
 
 }
 
