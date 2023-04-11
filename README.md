@@ -1,1 +1,8 @@
-Primer uso de JSON.
+JSON first try.
+
+Class activities dedicated repo.
+
+
+ignot.
+
+
