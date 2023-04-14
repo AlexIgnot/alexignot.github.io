@@ -57,7 +57,7 @@ body.resume {
       body.resume header .intro-container h1 {
         margin: 0;
         padding: 0.09vh 0 0.8vh 1vh;
-        border-left: 3vh solid #fffcc7;
+        border-left: 3vh solid #948d01;
         font-size: 2.75vh;
         font-weight: 400;
         line-height: 3vh; }
@@ -75,9 +75,9 @@ body.resume {
         display: inline-block;
         width: 10.25vh;
         height: 10.25vh;
-        border: 3px solid #fffcc7;
+        border: 3px solid #948d01;
         border-radius: 100px;
-        background-image: url("C:/Users/Ígnot/Desktop/UV/4to semestre/Paradigmas de programacion/parcial2/alexignot.github.io/cvAlex/+52 271 700 7223 20220423_141613.jpg");
+        background-image: url("https://i.ibb.co/JBDmJkt/52-271-700-7223-20220423-141613.jpg");
         background-size: auto 100%;
         vertical-align: middle; }
     body.resume header .contact-container {
